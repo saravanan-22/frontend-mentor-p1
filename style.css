@@ -1,0 +1,1216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Outfit, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(16, 20, 30);
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+section,
+main {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10vw;
+  min-height: 100vh;
+  position: sticky;
+  top: 0px;
+}
+
+header nav {
+  min-height: 89vh;
+  margin: 32px;
+  background-color: rgb(22, 29, 47);
+  text-align: center;
+  border-radius: 8px;
+  height: 100%;
+}
+
+header nav .navbar_home {
+  margin-top: 30px;
+  margin-bottom: 76px;
+}
+
+header nav > ul {
+  margin: 36px 25px;
+}
+
+header nav ul li {
+  margin-bottom: 40px;
+  font-size: larger;
+}
+
+header nav ul li i {
+  color: rgb(80, 100, 135);
+}
+
+header nav .login_image {
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 44px;
+  position: relative;
+  top: 110px;
+  left: 17px;
+}
+
+header nav .login_image a > img {
+  width: 90%;
+  height: 40px;
+  margin: 2px 0px 0px 0px;
+  border-radius: 50%;
+}
+
+header nav ul li i:hover {
+  color: rgb(252, 71, 71);
+}
+
+header nav ul li i:active {
+  color: white;
+}
+
+header nav ul li a:active {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px 3px;
+}
+
+header nav .navbar_home a .home_image:active {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px 3px;
+}
+
+header nav .login_image > div:active {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px 3px;
+}
+
+/* <!---------------------------main content-----------------------------> */
+
+main {
+  min-height: 82vh;
+  width: 70vw;
+  margin: -520px 0px 0px 150px;
+}
+
+main .searchbar {
+  min-height: 20vh;
+  position: fixed;
+  top: 66px;
+}
+
+main i {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-right: 22px;
+}
+
+main input[type="search"] {
+  width: 330px;
+  height: 20px;
+  background-color: rgb(16, 20, 30);
+  font-size: 22px;
+  border: 0px solid rgb(16, 20, 30);
+  color: white;
+  outline: none;
+}
+
+input[type="search"]:hover {
+  border-bottom: 1px solid white;
+}
+
+/* ------------------------trending---------------------- */
+
+main .trending .trending_heading > h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 0px 0px 20px 0px;
+}
+
+main .trending_images {
+  display: flex;
+}
+
+main .trending_images > div {
+  margin-right: 20px;
+}
+
+main img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main #bookmark1 {
+  position: relative;
+  bottom: 175px;
+  left: 330px;
+  color: black;
+  font-size: medium;
+  background-color: rgb(101, 113, 135);
+  padding: 7px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 30px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .title {
+  margin-top: -90px;
+  margin-left: 20px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .image_1 h3 {
+  color: rgb(209, 210, 214);
+}
+
+/* ---------------------recommended---------------------- */
+
+main .recommended .recommended_heading > h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  margin: 30px 0px 20px 0px;
+}
+
+main .recommended_images {
+  display: flex;
+}
+
+main .recommended_images .image_2 {
+  margin-left: 135px;
+}
+
+main .recommended img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main .recommended #bookmark1 {
+  position: relative;
+  bottom: 145px;
+  left: 210px;
+  color: black;
+  font-size: small;
+  background-color: rgb(101, 113, 135);
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 25px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .recommended .title {
+  margin-top: -20px;
+  margin-left: 2px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .recommended .image_1,
+.image_2 h3 {
+  color: rgb(209, 210, 214);
+  font-size: small;
+}
+
+main .recommended img {
+  width: 180%;
+}
+
+/* -------------------------------------recommended_2--------------------------------------------- */
+
+main .recommended_2 .recommended_heading > h1 {
+  /* color: white;
+  font-weight: lighter;
+  font-size: 28px; */
+  margin: 25px 0px 20px 0px;
+}
+
+main .recommended_images {
+  display: flex;
+}
+
+main .recommended_images .image_2 {
+  margin-left: 135px;
+}
+
+main .recommended_2 img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main .recommended_2 #bookmark1 {
+  position: relative;
+  bottom: 145px;
+  left: 210px;
+  color: black;
+  font-size: small;
+  background-color: rgb(101, 113, 135);
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 25px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .recommended_2 .title {
+  margin-top: -20px;
+  margin-left: 2px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .recommended_2 .image_1,
+.image_2 h3 {
+  color: rgb(209, 210, 214);
+  font-size: small;
+}
+
+main .recommended_2 img {
+  width: 180%;
+}
+
+/* -------------------------------------------------bookmarked_movies------------------------------------------------------------- */
+
+main .bookmarked_movies .bookmarked_movies_heading > h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  margin: 25px 0px 20px 0px;
+}
+
+main .bookmarked_movies_images {
+  display: flex;
+}
+
+main .bookmarked_movies_images .image_2 {
+  margin-left: 135px;
+}
+
+main .bookmarked_movies img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main .bookmarked_movies #bookmark1 {
+  position: relative;
+  bottom: 145px;
+  left: 210px;
+  color: black;
+  font-size: small;
+  background-color: rgb(101, 113, 135);
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 25px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .bookmarked_movies .title {
+  margin-top: -20px;
+  margin-left: 2px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .bookmarked_movies .image_1,
+.image_2 h3 {
+  color: rgb(209, 210, 214);
+  font-size: small;
+}
+
+main .bookmarked_movies img {
+  width: 180%;
+}
+
+/* -------------------------------------------------------bookmarked_movies2------------------------------------------------------------------ */
+
+main .bookmarked_movies_2 .bookmarked_movies_2_heading > h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  margin: 25px 0px 20px 0px;
+}
+
+main .bookmarked_movies_2_images {
+  display: flex;
+}
+
+main .bookmarked_movies_2_images .image_2 {
+  margin-left: 135px;
+}
+
+main .bookmarked_movies_2 img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main .bookmarked_movies_2 #bookmark1 {
+  position: relative;
+  bottom: 145px;
+  left: 210px;
+  color: rgb(255, 255, 255);
+  font-size: small;
+  background-color: rgb(101, 113, 135);
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 25px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .bookmarked_movies_2 .title {
+  margin-top: -20px;
+  margin-left: 2px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .bookmarked_movies_2 .image_1,
+.image_2 h3 {
+  color: rgb(209, 210, 214);
+  font-size: small;
+}
+
+main .bookmarked_movies_2 img {
+  width: 180%;
+}
+
+/* -------------------------------------------------------bookmarked_movies3------------------------------------------------------------------ */
+
+main .bookmarked_movies_3 .bookmarked_movies_3_heading > h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  margin: 25px 0px 20px 0px;
+}
+
+main .bookmarked_movies_3_images {
+  display: flex;
+}
+
+main .bookmarked_movies_3_images .image_2 {
+  margin-left: 135px;
+}
+
+main .bookmarked_movies_3 img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main .bookmarked_movies_3 #bookmark1 {
+  position: relative;
+  bottom: 145px;
+  left: 210px;
+  color: rgb(255, 255, 255);
+  font-size: small;
+  background-color: rgb(101, 113, 135);
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 25px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .bookmarked_movies_3 .title {
+  margin-top: -20px;
+  margin-left: 2px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .bookmarked_movies_3 .image_1,
+.image_2 h3 {
+  color: rgb(209, 210, 214);
+  font-size: small;
+}
+
+main .bookmarked_movies_3 img {
+  width: 195%;
+}
+
+/*------------------------bookmarked_tv_series---------------------------------------------------------------------*/
+
+main .bookmarked_TV_Series .bookmarked_TV_Series_heading > h1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  margin: 25px 0px 20px 0px;
+}
+
+main .bookmarked_TV_Series_images {
+  display: flex;
+}
+
+main .bookmarked_TV_Series_images .image_2 {
+  margin-left: -70px;
+}
+
+main .bookmarked_TV_Series img {
+  border-radius: 5px;
+}
+
+main .image1 .bookmark {
+  position: absolute;
+}
+
+main .bookmarked_TV_Series #bookmark1 {
+  position: relative;
+  bottom: 155px;
+  left: 230px;
+  color: rgb(255, 255, 255);
+  font-size: small;
+  background-color: rgb(101, 113, 135);
+  padding: 8px;
+  border-radius: 50%;
+  opacity: 80%;
+  height: 25px;
+}
+
+main #bookmark1:hover {
+  color: white;
+}
+
+main .bookmarked_TV_Series .title {
+  margin-top: -20px;
+  margin-left: 2px;
+}
+
+main .title1 {
+  color: rgb(160, 160, 165);
+}
+
+main .fa-film {
+  color: rgb(209, 210, 214);
+}
+
+main .bookmarked_TV_Series .image_1,
+.image_2 h3 {
+  color: rgb(209, 210, 214);
+  font-size: small;
+}
+
+main .bookmarked_TV_Series img {
+  width: 75%;
+}
+
+/*-------------------------------------media query-------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: inline;
+    width: 10vw;
+    min-height: 100vh;
+    position: relative;
+    /* /* top: 0px; */
+  }
+
+  header nav {
+    min-height: 0px;
+    margin: 0px;
+    background-color: rgb(22, 29, 47);
+    text-align: none;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* height: 100%; */
+  }
+
+  header nav .navbar_home {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    margin: 20px 10px;
+    margin-bottom: 0px;
+  }
+
+  header nav > ul {
+    /* margin: 36px 25px; */
+    display: inline;
+  }
+
+  header nav ul li {
+    /* margin-bottom: 40px; */
+    font-size: larger;
+    display: inline;
+  }
+
+  header nav ul li i {
+    color: rgb(80, 100, 135);
+    padding: 10px 10px;
+    font-size: larger;
+  }
+
+  header nav .login_image {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 44px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+  }
+
+  header nav .login_image a > img {
+    width: 90%;
+    height: 40px;
+    margin: 2px 0px 0px 0px;
+    border-radius: 50%;
+  }
+
+  header nav ul li i:hover {
+    color: rgb(252, 71, 71);
+  }
+
+  header nav ul li i:active {
+    color: white;
+  }
+
+  header nav ul li a:active {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px 3px;
+  }
+
+  header nav .navbar_home a .home_image:active {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px 3px;
+  }
+
+  header nav .login_image > div:active {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 2px 3px;
+  }
+  /* -------------------main---------------------------- */
+  main {
+    min-height: 0;
+    width: 0;
+    margin: 0;
+    position: relative;
+    top: 40px;
+    left: 0;
+  }
+  main .searchbar {
+    min-height: 0;
+    width: auto;
+    display: inline-block;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 27px;
+  }
+  main i {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: 22px;
+  }
+  main input[type="search"] {
+    width: 330px;
+    height: 20px;
+    margin-left: 40px;
+    background-color: rgb(16, 20, 30);
+    font-size: 22px;
+    border: 0px solid rgb(16, 20, 30);
+    color: white;
+    outline: none;
+  }
+  main .trending {
+    margin: 20px;
+    width: 100vw;
+  }
+  #image_1,
+  #image_2 {
+    display: none;
+  }
+  /* ------------------------recommended------------------ */
+  main .recommended .recommended_heading > h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 30px 0px 20px 10px;
+  }
+
+  main .recommended_images {
+    display: block;
+  }
+
+  main .recommended_images .image_2 {
+    margin-left: 0px;
+  }
+
+  main .recommended img {
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  main .image1 .bookmark {
+    position: absolute;
+  }
+
+  main .recommended #bookmark1 {
+    position: relative;
+    bottom: 115px;
+    left: 160px;
+    color: black;
+    font-size: small;
+    background-color: rgb(101, 113, 135);
+    padding: 8px;
+    border-radius: 50%;
+    opacity: 80%;
+    height: 25px;
+  }
+
+  main #bookmark1:hover {
+    color: white;
+  }
+
+  main .recommended .title {
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+
+  main .title1 {
+    color: rgb(160, 160, 165);
+  }
+
+  main .fa-film {
+    color: rgb(209, 210, 214);
+  }
+
+  main .recommended .image_1,
+  .image_2 h3 {
+    color: rgb(209, 210, 214);
+    font-size: small;
+  }
+
+  main .recommended img {
+    width: 200px;
+  }
+  #ig1 {
+    position: absolute;
+    top: 410px;
+    left: 10px;
+  }
+  #ig2 {
+    position: absolute;
+    top: 410px;
+    left: 250px;
+  }
+  #ig3 {
+    position: absolute;
+    top: 590px;
+    left: 10px;
+  }
+  #ig4 {
+    position: absolute;
+    top: 590px;
+    left: 250px;
+  }
+
+  /* ------------------------recommended 2-------- */
+  main .recommended_2 .recommended_heading > h1 {
+    /* color: white;
+    font-weight: lighter;
+    font-size: 28px; */
+    margin: 25px 0px 20px 0px;
+  }
+
+  main .recommended_images {
+    display: flex;
+  }
+
+  main .recommended_images .image_2 {
+    margin-left: 0px;
+  }
+
+  main .recommended_2 img {
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  main .image1 .bookmark {
+    position: absolute;
+  }
+
+  main .recommended_2 #bookmark1 {
+    position: relative;
+    bottom: 115px;
+    left: 160px;
+    color: black;
+    font-size: small;
+    background-color: rgb(101, 113, 135);
+    padding: 8px;
+    border-radius: 50%;
+    opacity: 80%;
+    height: 25px;
+  }
+
+  main #bookmark1:hover {
+    color: white;
+  }
+
+  main .recommended_2 .title {
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+
+  main .title1 {
+    color: rgb(160, 160, 165);
+  }
+
+  main .fa-film {
+    color: rgb(209, 210, 214);
+  }
+
+  main .recommended_2 .image_1,
+  .image_2 h3 {
+    color: rgb(209, 210, 214);
+    font-size: small;
+  }
+
+  main .recommended_2 img {
+    width: 200px;
+  }
+
+  #ig5 {
+    position: absolute;
+    top: 790px;
+    left: 10px;
+  }
+  #ig6 {
+    position: absolute;
+    top: 790px;
+    left: 250px;
+  }
+  #ig7 {
+    position: absolute;
+    top: 970px;
+    left: 10px;
+  }
+  #ig8 {
+    position: absolute;
+    top: 970px;
+    left: 250px;
+  }
+  /* ---------------bookmark---------------- */
+  main .bookmarked_movies .bookmarked_movies_heading > h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 25px 0px 20px 20px;
+  }
+
+  main .bookmarked_movies_images {
+    display: flex;
+  }
+
+  main .bookmarked_movies_images .image_2 {
+    margin-left: 0px;
+  }
+
+  main .bookmarked_movies img {
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  main .image1 .bookmark {
+    position: absolute;
+  }
+
+  main .bookmarked_movies #bookmark1 {
+    position: relative;
+    bottom: 115px;
+    left: 160px;
+    color: black;
+    font-size: small;
+    background-color: rgb(101, 113, 135);
+    padding: 8px;
+    border-radius: 50%;
+    opacity: 80%;
+    height: 25px;
+  }
+
+  main #bookmark1:hover {
+    color: white;
+  }
+
+  main .bookmarked_movies .title {
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+
+  main .title1 {
+    color: rgb(160, 160, 165);
+  }
+
+  main .fa-film {
+    color: rgb(209, 210, 214);
+  }
+
+  main .bookmarked_movies .image_1,
+  .image_2 h3 {
+    color: rgb(209, 210, 214);
+    font-size: small;
+  }
+
+  main .bookmarked_movies img {
+    width: 200px;
+  }
+  #ib1 {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+  }
+  #ib2 {
+    position: absolute;
+    top: 110px;
+    left: 250px;
+  }
+  #ib3 {
+    position: absolute;
+    top: 300px;
+    left: 10px;
+  }
+  #ib4 {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+  }
+  /* -----------------bookmark-------------- */
+  main .bookmarked_movies_2 .bookmarked_movies_2_heading > h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 25px 0px 20px 10px;
+  }
+
+  main .bookmarked_movies_2_images {
+    display: flex;
+  }
+
+  main .bookmarked_movies_2_images .image_2 {
+    margin-left: 0px;
+  }
+
+  main .bookmarked_movies_2 img {
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  main .image1 .bookmark {
+    position: absolute;
+  }
+
+  main .bookmarked_movies_2 #bookmark1 {
+    position: relative;
+    bottom: 115px;
+    left: 160px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    background-color: rgb(101, 113, 135);
+    padding: 8px;
+    border-radius: 50%;
+    opacity: 80%;
+    height: 25px;
+  }
+
+  main #bookmark1:hover {
+    color: white;
+  }
+
+  main .bookmarked_movies_2 .title {
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+
+  main .title1 {
+    color: rgb(160, 160, 165);
+  }
+
+  main .fa-film {
+    color: rgb(209, 210, 214);
+  }
+
+  main .bookmarked_movies_2 .image_1,
+  .image_2 h3 {
+    color: rgb(209, 210, 214);
+    font-size: small;
+  }
+
+  main .bookmarked_movies_2 img {
+    width: 200px;
+  }
+
+  #ib5 {
+    position: absolute;
+    top: 510px;
+    left: 10px;
+  }
+  #ib6 {
+    position: absolute;
+    top: 510px;
+    left: 250px;
+  }
+  #ib7 {
+    position: absolute;
+    top: 700px;
+    left: 10px;
+  }
+  #ib8 {
+    position: absolute;
+    top: 700px;
+    left: 250px;
+  }
+
+  /* --------------bookmark3-------------- */
+  main .bookmarked_movies_3 .bookmarked_movies_3_heading > h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 25px 0px 20px 10px;
+  }
+
+  main .bookmarked_movies_3_images {
+    display: flex;
+  }
+
+  main .bookmarked_movies_3_images .image_2 {
+    margin-left: 0px;
+  }
+
+  main .bookmarked_movies_3 img {
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  main .image1 .bookmark {
+    position: absolute;
+  }
+
+  main .bookmarked_movies_3 #bookmark1 {
+    position: relative;
+    bottom: 115px;
+    left: 160px;
+
+    color: rgb(255, 255, 255);
+    font-size: small;
+    background-color: rgb(101, 113, 135);
+    padding: 8px;
+    border-radius: 50%;
+    opacity: 80%;
+    height: 25px;
+  }
+
+  main #bookmark1:hover {
+    color: white;
+  }
+
+  main .bookmarked_movies_3 .title {
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+
+  main .title1 {
+    color: rgb(160, 160, 165);
+  }
+
+  main .fa-film {
+    color: rgb(209, 210, 214);
+  }
+
+  main .bookmarked_movies_3 .image_1,
+  .image_2 h3 {
+    color: rgb(209, 210, 214);
+    font-size: small;
+  }
+
+  main .bookmarked_movies_3 img {
+    width: 200px;
+  }
+
+  #ib9 {
+    position: absolute;
+    top: 900px;
+    left: 10px;
+  }
+
+  /* --------------------bookmark tv series------- */
+  main .bookmarked_TV_Series .bookmarked_TV_Series_heading > h1 {
+    color: white;
+    font-weight: lighter;
+    font-size: 28px;
+    margin: 900px 0px 20px 20px;
+  }
+
+  main .bookmarked_TV_Series_images {
+    display: flex;
+  }
+
+  main .bookmarked_TV_Series_images .image_2 {
+    margin-left: 0px;
+  }
+
+  main .bookmarked_TV_Series img {
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  main .image1 .bookmark {
+    position: absolute;
+  }
+
+  main .bookmarked_TV_Series #bookmark1 {
+    position: relative;
+    bottom: 115px;
+    left: 160px;
+
+    color: rgb(255, 255, 255);
+    font-size: small;
+    background-color: rgb(101, 113, 135);
+    padding: 8px;
+    border-radius: 50%;
+    opacity: 80%;
+    height: 25px;
+  }
+
+  main #bookmark1:hover {
+    color: white;
+  }
+
+  main .bookmarked_TV_Series .title {
+    margin-top: -20px;
+    margin-left: 12px;
+  }
+
+  main .title1 {
+    color: rgb(160, 160, 165);
+  }
+
+  main .fa-film {
+    color: rgb(209, 210, 214);
+  }
+
+  main .bookmarked_TV_Series .image_1,
+  .image_2 h3 {
+    color: rgb(209, 210, 214);
+    font-size: small;
+  }
+
+  main .bookmarked_TV_Series img {
+    width: 200px;
+  }
+  #im1 {
+    position: absolute;
+    top: 1180px;
+    left: 10px;
+  }
+  #im2 {
+    position: absolute;
+    top: 1180px;
+    left: 250px;
+  }
+  #im3 {
+    position: absolute;
+    top: 1400px;
+    left: 10px;
+  }
+}
